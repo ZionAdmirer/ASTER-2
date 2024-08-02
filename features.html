@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aster - Features</title>
+    <style>
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom right, #6a1b9a, #4a148c);
+            color: #f3e5f5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Header Styles */
+        header {
+            width: 100%;
+            padding: 15px 0;
+            background-color: rgba(74, 20, 140, 0.8);
+            margin-bottom: 30px;
+        }
+
+        .logo {
+            font-size: 3em;
+            font-weight: bold;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(90deg, #d1c4e9, #6a1b9a); /* Light to dark violet gradient */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Features Section */
+        .features {
+            width: 90%;
+            max-width: 800px;
+            margin: 30px 0;
+        }
+
+        .features h1 {
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+
+        .feature {
+            background-color: #4a148c;
+            color: #f3e5f5;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            margin: 15px 0;
+            transition: transform 0.3s;
+        }
+
+        .feature:hover {
+            transform: scale(1.02);
+        }
+
+        .feature h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+
+        .feature img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+
+        /* Footer Styles */
+        footer {
+            margin-top: 20px;
+            padding: 10px 0;
+            background-color: #4a148c;
+            color: #f3e5f5;
+            width: 100%;
+            text-align: center;
+            border-radius: 0 0 10px 10px;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .features {
+                width: 95%;
+            }
+
+            .feature {
+                margin: 10px 0;
+            }
+
+            .feature h2 {
+                font-size: 1.5em;
+            }
+
+            .feature p {
+                font-size: 1em;
+            }
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">ASTER</div>
+    </header>
+    <div class="features">
+        <h1>Features of Aster Weather App</h1>
+
+        <div class="feature">
+            <img src="https://img.icons8.com/ios-filled/50/ffffff/partly-cloudy-day.png" alt="Real-time Updates">
+            <h2>🌦️ Real-time Weather Updates</h2>
+            <p>Get instant weather updates for any location around the world. Stay informed about current conditions and forecasts.</p>
+        </div>
+
+        <div class="feature">
+            <img src="https://img.icons8.com/ios-filled/50/ffffff/temperature.png" alt="Detailed Forecasts">
+            <h2>🌍 Detailed Forecasts</h2>
+            <p>Access detailed forecasts including temperature, humidity, wind speed, and more for the next few days.</p>
+        </div>
+
+        <div class="feature">
+            <img src="https://img.icons8.com/ios-filled/50/ffffff/mobile.png" alt="Mobile-Friendly">
+            <h2>📱 Mobile-Friendly Design</h2>
+            <p>Our app is designed to be fully responsive, ensuring a seamless experience on mobile devices and tablets.</p>
+        </div>
+
+        <div class="feature">
+            <img src="https://img.icons8.com/ios-filled/50/ffffff/cloud.png" alt="Reliable Data">
+            <h2>⚡ Fast and Reliable Data</h2>
+            <p>We provide fast and reliable weather data sourced from trusted meteorological services.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Aster. All rights reserved.</p>
+    </footer>
+</body>
+</html>

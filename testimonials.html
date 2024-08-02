@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aster - Testimonials</title>
+    <style>
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom right, #6a1b9a, #4a148c);
+            color: #f3e5f5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Header Styles */
+        header {
+            width: 100%;
+            padding: 15px 0;
+            background-color: rgba(74, 20, 140, 0.8);
+            margin-bottom: 30px;
+        }
+
+        .logo {
+            font-size: 3em;
+            font-weight: bold;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(90deg, #d1c4e9, #6a1b9a);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Testimonials Section */
+        .testimonials {
+            width: 90%;
+            max-width: 800px;
+            margin: 30px 0;
+        }
+
+        .testimonials h1 {
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+
+        .testimonial {
+            background-color: #4a148c;
+            color: #f3e5f5;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            margin: 15px 0;
+            text-align: left;
+            transition: transform 0.3s;
+        }
+
+        .testimonial:hover {
+            transform: scale(1.02);
+        }
+
+        .testimonial h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .testimonial p {
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+
+        .testimonial .author {
+            font-style: italic;
+            text-align: right;
+        }
+
+        /* Footer Styles */
+        footer {
+            margin-top: 20px;
+            padding: 10px 0;
+            background-color: #4a148c;
+            color: #f3e5f5;
+            width: 100%;
+            text-align: center;
+            border-radius: 0 0 10px 10px;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .testimonials {
+                width: 95%;
+            }
+
+            .testimonial {
+                margin: 10px 0;
+            }
+
+            .testimonial h2 {
+                font-size: 1.3em;
+            }
+
+            .testimonial p {
+                font-size: 1em;
+            }
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">ASTER</div>
+    </header>
+    <div class="testimonials">
+        <h1>What Our Users Say</h1>
+
+        <div class="testimonial">
+            <h2>Accurate and Easy to Use</h2>
+            <p>Aster has changed the way I plan my day. The real-time weather updates are always accurate, and the app is incredibly easy to use.</p>
+            <div class="author">- Sarah L.</div>
+        </div>
+
+        <div class="testimonial">
+            <h2>My Go-to Weather App</h2>
+            <p>I love the detailed forecasts and the mobile-friendly design. Aster is my go-to weather app for reliable information.</p>
+            <div class="author">- John D.</div>
+        </div>
+
+        <div class="testimonial">
+            <h2>Clean and Intuitive Interface</h2>
+            <p>The interface is clean, intuitive, and visually appealing. I highly recommend Aster to anyone looking for a great weather app.</p>
+            <div class="author">- Emily R.</div>
+        </div>
+
+        <div class="testimonial">
+            <h2>Fast and Reliable Data</h2>
+            <p>Aster provides fast and reliable weather data sourced from trusted meteorological services. I trust the information I get from this app.</p>
+            <div class="author">- Michael T.</div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Aster. All rights reserved.</p>
+    </footer>
+</body>
+</html>
